@@ -13,9 +13,10 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        print("load");
     }
 
-    @IBAction func onRoll(_ sender: Any) {
+    @IBAction func handleOnRoll(_ sender: Any) {
         let images : [UIImage] = [
             UIImage(named: "DiceOne")!,
             UIImage(named: "DiceTwo")!,
